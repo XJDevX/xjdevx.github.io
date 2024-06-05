@@ -1,0 +1,68 @@
+nav {
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #67dcff, #1D2671);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #67dcff, #1D2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+body {
+    background: #cfd1cb; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 40px;
+}
+
+#about, #projects, #contact {
+    background-color: #f4f4f4;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 15%;
+}
+
+div {
+    margin: 5px;
+}
+
+img {
+    width: 16%;
+}
+
+body {
+    background-color: #f8f9fa;
+}

@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>XJDevX - Inicio</title>
+        <title>XJDevX - Portafolio</title>
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./portafolio.css">
     </head>
 
     <body>
@@ -30,15 +31,34 @@
             </div>
         </nav>
         
-        <div class="container mt-4">
-            <div class="jumbotron">
-                <h2 class="display-4">Bienvenido a Mi Sitio de Proyectos</h2>
-                <p class="lead">Este es un sitio donde puedes ver todos mis proyectos.</p>
-                <hr class="my-4">
-                <p>Explora los proyectos en la sección de Proyectos.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Ver Proyectos</a>
-            </div>
+        <header>
+            <h1>JXDeveloper - Julian Parrales</h1>
+            <p>Analista de Datos e interesado en la creación de IA</p>
+        </header>
+        
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy JXDeveloper o Julián Parrales, soy un estudiante de Platzi que esta
+                interesado en el Análisis de datos e Inteligencia Artificial.
+            </p>
+        </section>
+        
+        <div>
+            <img src="{{url_for('static', filename='img/perfil.jpg')}}" alt="JXDeveloper">
         </div>
+        
+        </section>
+        
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: <a
+                    href="julianparrales19@gmail.com">julianparrales19@gmail.com</a></p>
+        </section>
+        
+        
+        <footer>
+            <p>&copy; 2024 JXDeveloper</p>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
